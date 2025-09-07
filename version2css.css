@@ -1,0 +1,136 @@
+/* General Body Styling */
+body {
+    background-image: url('https://whitechocoboy24.github.io/whitechocoboy-s-Exclusive-24.2.-assets/asset3.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    height: 125vh;
+    margin-top: 80px;
+    padding: 30px;
+    font-family: sans-serif;
+    cursor: url('https://whitechocoboy24.github.io/whitechocoboy-s-Exclusive-24.2.v/ezgif-4-851236c89c.gif'), auto;
+}
+
+/* Button Styling */
+.button {
+    top: 10%;
+    background-color: #000000; /* Black background */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    border-radius: 10%; /* Rounded corners */
+    box-shadow: 0 0 10px 0 #ff0000; /* Red glow effect */
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto; /* Center alignment */
+    margin-right: auto; /* Center alignment */
+    font-size: 16px; /* Adjust font size for better readability */
+    width: auto; /* Dynamic width to fit text */
+    padding: 10px 20px; /* Padding for spacing */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: inline-block; /* Proper alignment */
+    text-align: center; /* Center text inside button */
+}
+
+.button:hover {
+    background-color: #333333; /* Slightly lighter black on hover */
+}
+
+/* Navigation Bar Styling */
+/* Fixed Navigation Bar Styling */
+nav {
+    position: fixed; /* Keeps it fixed at the top */
+    top: 0; /* Aligns it with the top of the screen */
+    left: 0; /* Aligns it with the left edge */
+    width: 100%; /* Stretches across the entire width of the viewport */
+    height: 80px;
+    padding: 5px 10px; /* Adjust padding for spacing */
+    background-image: url('https://wallpaper-house.com/data/out/10/wallpaper2you_413377.jpg');
+    background-color: black; /* Fallback color in case the image doesn't load */
+    border-radius: 0; /* Remove rounded corners for consistency */
+    box-shadow: 0 8px 1px 0 #0b0b0be0;
+    z-index: 9999; /* Ensure it stays above all other elements */
+}
+
+/* Links inside the navbar */
+nav a {
+    font-family: Maiandra GD;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fb01e2;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 15px; /* Adjust link padding */
+}
+
+/* Navbar hover effect */
+nav a:hover {
+    color: #00FFB9; /* Neon effect on hover */
+}
+
+/* Animated bar for the active link */
+nav .animation {
+    position: absolute;
+    height: 6px;
+    bottom: 0px;
+    z-index: 0;
+    background: #0000002a;
+    box-shadow: 0px 3px 0px 1px rgba(0, 255, 255, 0.773);
+    border-radius: 8px;
+    transition: all 0.9s;
+}
+
+nav a:nth-child(1) {
+    width: 100px;
+}
+
+nav .start-home,
+a:nth-child(1):hover ~ .animation {
+    width: 100px;
+    left: 0;
+}
+
+nav a:nth-child(2) {
+    width: 110px;
+}
+
+nav .start-about,
+a:nth-child(2):hover ~ .animation {
+    width: 110px;
+    left: 100px;
+}
+
+nav a:nth-child(3) {
+    width: 100px;
+}
+
+nav a:nth-child(3):hover ~ .animation {
+    width: 110px;
+    left: 200px;
+}
+
+
+/* Text Styling */
+h2 {
+    color: #00FFB9; /* Neon green text */
+}
+
+h5 {
+    color: #00ffc8;
+}
+
+h6 {
+    font-family: Maiandra GD;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1%;
+    color: #22fb01;
+}
+
+/* Image Styling */
+img {
+    display: block; /* Ensure image doesn't overflow */
+    margin: 1px auto; /* Center the image */
+    width: 100px;
+}
